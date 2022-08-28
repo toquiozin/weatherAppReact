@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
   container: {
     color:'#fff',
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#0000FF',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
   },
   btn:{
     alignItems: 'center',
-    backgroundColor: '#45FFBB',
+    backgroundColor: '#00FFFF',
     width:300,
     borderRadius: 8,
   },
