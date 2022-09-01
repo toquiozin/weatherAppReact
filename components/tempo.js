@@ -5,7 +5,7 @@ export default function Tempo(props){
     return (
         <>
             <View style={styles.bloco}>
-                <Text style={styles.texto}>Hora da Consulta: {props.data.date}/2022</Text>
+                <Text style={styles.texto}>Hora da Consulta: {props.data.date}</Text>
                 <Text style={styles.texto}>Cidade: {props.data2.city_name}</Text>
                 <Text style={styles.texto}>Temperatura: {props.data2.temp}°C</Text>
                 <Text style={styles.texto}>Min: {props.data.min}°C</Text>
@@ -19,16 +19,15 @@ export default function Tempo(props){
 
 const styles = StyleSheet.create({
     bloco: {
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-around',
-        alignItems: 'center',
-        borderRadius: 50,
-        backgroundColor: '#fff',
-        marginTop:10
+        width: 200,
+        height: 200,
+        justifyContent: "center",
+        marginTop:20,
+        color: '#fff',
     },
-    texto: {
-        marginTop:10,
-        fontSize: 20,
+    texto:{
+        marginTop: 10,
+        color:'#000',
+        fontSize: 18,
     }
 })

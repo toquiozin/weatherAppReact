@@ -66,30 +66,32 @@ const styles = StyleSheet.create({
   container: {
     color:'#fff',
     flex: 1,
-    backgroundColor: '#0000FF',
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
   textheader:{
-    fontSize:40
+    fontSize:32
   },
   input:{
     color:'#000',
     fontSize:20,
-    marginBottom: '1%'
+    borderColor:'#444',
+    borderRadius:5,
+    borderWidth: 2,
+    width: 250,
   },
   btn:{
+    justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#00FFFF',
-    width:300,
-    borderRadius: 8,
+    backgroundColor: '#fff',
+    width:200,
+    height:40,
+    backgroundColor: '#F53DD4',
+    borderRadius: 30,
   },
   btnText:{
-    fontSize: 30,
+    fontSize:24,
     color: '#000',
   },
-  picker:{
-    fontSize:20,
-
-  }
 });
